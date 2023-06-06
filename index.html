@@ -69,7 +69,9 @@
       <div class="heading">
         <h1 class="heading-title">Efektywne rozwiązania dla Waszego biznesu</h1>
         <div class="button-pos">
-          <button type="button" class="button-order">Zamów usługę</button>
+          <button type="button" class="button-order" data-modal-open>
+            Zamów usługę
+          </button>
         </div>
       </div>
       <div class="container">
@@ -435,5 +437,11 @@
         </div>
       </div>
     </footer>
+    <div class="modal is-hidden" data-modal>
+      <div class="modal-window">
+        <button data-modal-close>X</button>
+      </div>
+    </div>
+    <script src="js/modal.js"></script>
   </body>
 </html>
