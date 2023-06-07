@@ -496,8 +496,13 @@ h5 {
   border: 1px solid #ddd;
   border-radius: 4px;
   z-index: index 2;
+  margin: auto;
 }
 .modal-close-button {
   width: 30px;
   height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  cursor: pointer;
+  border-radius: 50%;
 }
