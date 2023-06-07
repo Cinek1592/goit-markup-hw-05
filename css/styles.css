@@ -484,6 +484,15 @@ h5 {
   pointer-events: none;
   background-color: rgba(0, 0, 0, 0.3);
 }
+.modal {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
 .modal-window {
   width: 528px;
   height: 581px;
@@ -526,4 +535,20 @@ h5 {
   margin-top: 27px;
   display: flex;
   justify-content: center;
+}
+.emphasis {
+  position: relative;
+  top: 15px;
+  border-radius: 2px;
+  background-color: #2196f3;
+}
+.emphasis::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  display: block;
+  width: 53px;
+  height: 4px;
+  background-color: #2196f3;
 }
