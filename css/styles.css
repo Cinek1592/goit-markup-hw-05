@@ -562,6 +562,8 @@ h5 {
   transition: transform 250ms ease-in-out;
   margin-top: 0;
   position: absolute;
+  top: 0;
+  left: 0;
 }
 .overlay > p {
   font-size: 18px;
@@ -580,9 +582,6 @@ h5 {
   margin: 0 auto;
   display: flex;
 }
-.overlay:hover .overlay:focus {
-  transfom: translatey(100%);
-}
-.overlay::after {
-  transform: translatey(-100%);
+.overlay-box:hover .overlay {
+  transform: translateY(0);
 }
